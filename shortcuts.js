@@ -4,7 +4,7 @@
 // search wikipedia
 // create custom search
 
-// gmail
+// Gmail:
 // setup keyboard shortcuts
 // ? : show keyboard shortcuts
 // j : move downward
@@ -13,16 +13,23 @@
 // s (while open) : star / unstar
 // - (while open) : unmark as important
 // + (while open) : mark as important
-// e : archive
 // r : reply
 // a : reply all
+// e : archive
 // # (while open) : delete
 // u : return to main window
+// / : move focus to search bar
+
+// Markdown here extension: http://markdown-here.com/
+// Markdown syntax: http://daringfireball.net/projects/markdown/syntax
+//  fn + control + option + m: convert markdown to rich text using markdown-here
 
 // OSX:
 // command + tab : switch open applications
 // command + ` : switch open applications in reverse
 // command + q (while in open applications) : quit an application
+// control + left/right arrow : switch among fullscreen apps/desktops
+// control + up arrow : toggle mission control
 
 // Chrome / Sublime / and Bash:
 // command + n : create new window
@@ -65,12 +72,14 @@
 
 var outerFunction = function(){
 
-
+  console.log('this is an outerFunction, but what if it needs something MORE');
 
 };
 
 var innerFunction = function(){
-
+  if('there were some useful code here') {
+    it('would be awesome.');
+  }
 };
 
 // control + shift + k : delete the whole line
@@ -82,10 +91,6 @@ var innerFunction = function(){
 // command + control + arrows : move entire line up and down
 // command + k, command + u : make selection upper case
 // command + k, command + l : make selection lower case
-// command + ' : select all within quotes
-var quote = "Wouldn't it be nice to replace this quote?";
-// command + shift + ' : select all within quotes, and quotes
-var quote = "Wouldn't it be nice to replace this quote with a number?";
 // control + m : move to beginning/end of parens and braces
 if('only there were a way to toggle around the parens'){
   var it = 'would be rad';
@@ -104,3 +109,5 @@ if('only there were a way to toggle around the parens'){
 // command + k, command + b : toggle file bar
 // command + option + NUMBER : split screen
 // control + shift + NUMBER : move current file to pane
+
+
