@@ -10,6 +10,7 @@
 // j : move downward
 // k : move upward
 // o : open
+// c : compose new message
 // s (while open) : star / unstar
 // - (while open) : unmark as important
 // + (while open) : mark as important
@@ -44,6 +45,7 @@
 // Chrome:
 // pin tabs
 // command + r : reload page
+// command + shift + r : reload, ignoring cache
 // command + option + j : open the javascript console
 // command + shift + i : email link for this page
 // command + [ : move backward through history
