@@ -6,3 +6,4 @@ pin tabs
 `command + shift + i ` : email link for this page
 `command + [ ` : move backward through history
 `command + ] ` : move forward through history
+`command + l ` : highlight address bar
