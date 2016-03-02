@@ -9,6 +9,8 @@
 
 `command + w` : close tab
 
+`command + shift + w` : close window
+
 `command + q` : quit application
 
 `command + shift + ] ` : move right one tab
