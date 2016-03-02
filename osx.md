@@ -2,7 +2,9 @@
 
 `command + tab` : switch open applications
 
-<code>command + &#96;</code> : switch open applications in reverse
+`command + shift + tab` : switch open applications in reverse
+
+<code>command + &#96;</code> : switch between open windows of the same application
 
 `command + q` (while in open applications) : quit an application
 
